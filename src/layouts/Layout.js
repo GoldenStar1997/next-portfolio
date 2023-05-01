@@ -6,7 +6,6 @@ import { customCursor, dataImage, imgToSVG, preloader } from "../utilits";
 import { waves } from "../waves";
 import Header from "./Header";
 import MobileHeader from "./MobileHeader";
-import Mouse from "./Mouse";
 import PreLoader from "./PreLoader";
 import Settings from "./Settings";
 
@@ -22,7 +21,6 @@ const Layout = ({ children }) => {
   return (
     <State>
       <Head>
-        <link rel="icon" type="image/png" href="/img/favicon.png" />
         <title>Hennadii 1993</title>
       </Head>
       <PreLoader />
@@ -39,7 +37,6 @@ const Layout = ({ children }) => {
         <MobileHeader />
         <Header />
         <div className="edrea_tm_content">{children}</div>
-        <Mouse />
       </div>
     </State>
   );

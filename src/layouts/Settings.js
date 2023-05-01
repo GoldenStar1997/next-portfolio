@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from "react";
 import { context } from "../context/context";
-import Image from "next/image";
 
 const colors = [
   "#4169e1",
